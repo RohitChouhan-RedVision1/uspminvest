@@ -22,7 +22,7 @@ export default function AboutSection({siteData}) {
           <div className={`${styles.aboutUsImages} relative`}>
             <div className="block lg:hidden w-full mb-5">
               <Image
-                src="/about-us.svg"
+                src="/about-us1.svg"
                 alt="About Background"
                 width={600}
                 height={400}
@@ -45,7 +45,7 @@ export default function AboutSection({siteData}) {
               <h3 className="">about us</h3>
               <h2 className="" data-cursor="-opaque">
                 Trusted guidance for{" "}
-                <span className="text-[--rv-secondary]">financial growth</span>
+                <span className="text-[--rv-primary]">financial growth</span>
               </h2>
               <p className="text-justify" data-aos="fade-up" data-aos-anchor-placement="bottom">
                 With years of expertise in finance and consulting, we provide

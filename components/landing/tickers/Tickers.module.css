@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     gap: 8px;
-    background-color: var(--dark-color);
+    background-color: #ff94ad;
     /* min-width: 200px; */
     color: white;
     border: 1px solid var(--accent-color);
@@ -16,12 +16,13 @@
 .indexName {
     font-weight: bold;
     font-size: 14px;
+    color: var(--rv-primary);
     white-space: nowrap;
 }
 
 .figure {
     font-weight: 600;
-    color: #ccc;
+    color: #ffffff;
     font-size: 12px;
 }
 
@@ -33,9 +34,9 @@
 }
 
 .positive {
-    color: #4caf50;
+    color: #006e47;
 }
 
 .negative {
-    color: #f44336;
+    color: #ff1100;
 }

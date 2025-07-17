@@ -1,5 +1,5 @@
 footer.mainFooter {
-    background: url('/images/footer-bg.svg'), var(--dark-color);
+    background: url('/images/footer-bg.svg'), #1c1013;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;

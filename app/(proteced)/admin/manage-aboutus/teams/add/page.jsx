@@ -29,16 +29,17 @@ const FormSchema = z.object({
   designation: z.string().nonempty("Designation is required."),
   experience: z.coerce.number().min(0, "Experience must be a positive number."),
   description: z.string().nonempty("Description is required."),
-  image: z.any().optional(), // Fixed file handling
+  image: z.any().optional(),
   socialMedia: z
     .array(
       z.object({
-        name: z.optional(),
-        link: z.optional(),
+        name: z.string().optional(),
+        link: z.string().optional(),
       })
     )
     .optional(),
 });
+
 
 const TeamForm = () => {
   const editor = useRef(null);

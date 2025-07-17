@@ -35,7 +35,7 @@ export default function Calculator() {
         const data = res.data;
         const futureValue = data.futureValue;
         const totalInvestment = data.totalInvestment;
-
+      const yearlyData = data.yearlyData;
         setResult({
           futureValue: Number(futureValue?.toFixed(2)),
           totalInvestment: Number(totalInvestment?.toFixed(2)),
@@ -55,13 +55,14 @@ export default function Calculator() {
     calculateSip();
   }, [monthlyInvestment, investmentDuration, expectedReturn]);
 
+  // console.log(chartData)
   return (
     <div className="">
       <div className="container mx-auto main_section items-center text-center">
         <div className="section-title text-center mb-10">
           {/* <h3 className="text-anime-style-1">Calculator</h3> */}
           <h2 className="" data-cursor="-opaque">
-            SIP <span className="text-[var(--rv-secondary)]">calculator</span>
+            SIP <span className="text-[var(--rv-primary)]">calculator</span>
           </h2>
           <p data-aos="fade-up" data-aos-anchor-placement="bottom">
             Use our SIP calculator to estimate your future returns and see the

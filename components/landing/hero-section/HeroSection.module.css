@@ -1,11 +1,13 @@
 .hero {
-    position: relative;
-    background-color: var(--dark-color);
-    background-image: url('/images/hero-bg.svg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-  }
+  position: relative;
+  background-image: 
+    url('/images/hero-bg.svg'),
+    linear-gradient(180deg, #d00233, #ee3c66);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
   
   .hero.heroBgImage {
     background: url('/images/hero-bg.jpg') no-repeat;
@@ -270,6 +272,9 @@
     margin-right: 15px;
     z-index: 1;
   }
+  .companyExperience:hover h3 {
+  color: #ffffff;
+}
   
   .companyExperience p {
     position: relative;
@@ -280,6 +285,9 @@
     z-index: 1;
   }
   
+  .companyExperience:hover p {
+  color: #ffffff;
+}
 
   @media only screen and (max-width: 991px) {
     .companyExperience{

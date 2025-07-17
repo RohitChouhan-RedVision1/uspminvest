@@ -16,7 +16,7 @@ const SubscribCard = ({ amclogos }) => {
 <div className="section-title">
   <h3 className="">we are working with</h3>
   <h2 className="" data-cursor="-opaque">
-    Reliable partners for <span className="text-[--rv-secondary]">mutual success</span>
+    Reliable partners for <span className="text-[--rv-primary]">mutual success</span>
   </h2>
   <p data-aos="fade-up" data-aos-anchor-placement="bottom">
     As our valued partner, we believe in building long-term relationships rooted in trust, transparency, and shared goals. With a collaborative approach and proven expertise, we are committed to driving growth — together.

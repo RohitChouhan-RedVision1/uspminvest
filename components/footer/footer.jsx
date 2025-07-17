@@ -136,14 +136,14 @@ const Footer = ({ services, siteData, socialMedia, arnData }) => {
                       <a
                         href={sub.link}
                         download
-                        className="hover:underline text-white"
+                        className=" text-white"
                       >
                         {sub.title}
                       </a>
                     ) : (
                       <Link
                         href={sub.link}
-                        className="hover:underline text-white"
+                        className=" text-white"
                       >
                         {sub.title}
                       </Link>

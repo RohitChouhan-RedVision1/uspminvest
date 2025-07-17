@@ -43,7 +43,7 @@ export default function FeaturesSection() {
           <div className="section-title">
             <h3 className="">Our Features</h3>
             <h2 className="" data-cursor="-opaque">
-              Key <span className="text-[var(--rv-secondary)]">features</span> of
+              Key <span className="text-[var(--rv-primary)]">features</span> of
               our finance and consulting
             </h2>
             <p data-aos="fade-up" data-aos-anchor-placement="bottom">
