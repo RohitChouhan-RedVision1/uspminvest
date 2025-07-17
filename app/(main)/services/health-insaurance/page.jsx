@@ -158,7 +158,7 @@ const HealthInsurance = async () => {
         {/* Conclusion and CTA */}
         <div className="text-center mt-8">
           <p className="text-gray-700 mb-4">
-            Don't let medical expenses catch you off guard. Secure your health and finances with a trusted insurance partner—choose {sitedata.websiteName} Health Insurance today.
+            Don&#39;t let medical expenses catch you off guard. Secure your health and finances with a trusted insurance partner—choose {sitedata.websiteName} Health Insurance today.
           </p>
           <Link href="/login" className="btn-default btn-highlighted">
             Get Health Cover Now

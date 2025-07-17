@@ -66,7 +66,7 @@ const MotorLoans = async () => {
         {/* Description */}
         <div className="mb-8">
           <p className="text-gray-700">
-            Whether it's a two-wheeler for daily commute or a four-wheeler for
+            Whether it&#39;s a two-wheeler for daily commute or a four-wheeler for
             your family, we help you secure the right financing plan that fits
             your budget and preferences.
           </p>

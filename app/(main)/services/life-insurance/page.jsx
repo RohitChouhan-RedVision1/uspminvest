@@ -110,7 +110,7 @@ const LifeInsurance = async () => {
               <FaRegCheckCircle className="text-green-600 text-2xl inline-block align-top" />
               <strong className="inline-block ml-2">Child Plans:</strong>
               <span className="ml-2">
-                Secure your child's education and future expenses with guaranteed returns.
+                Secure your child&#39;s education and future expenses with guaranteed returns.
               </span>
             </li>
           </ul>

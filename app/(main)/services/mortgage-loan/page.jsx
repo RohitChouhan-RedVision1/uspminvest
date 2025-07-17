@@ -157,7 +157,7 @@ const MortgageLoans = async () => {
         <div className="text-center mt-8">
           <p className="text-gray-700 mb-4">
             Need funds for business, education, or personal needs? Leverage your
-            property's value with {sitedata.websiteName}’s flexible mortgage loan offerings.
+            property&#39;s value with {sitedata.websiteName}&#39;s flexible mortgage loan offerings.
           </p>
           <Link href="/login" className="btn-default btn-highlighted">
             Apply for a Mortgage Loan
